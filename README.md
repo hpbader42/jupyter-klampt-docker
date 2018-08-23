@@ -36,7 +36,7 @@ Instructions:
    
       Note that the "X"s will be replaced by actual numbers
 
-6. The password to login is Klampt. Alternatively, you can add Klampt after the final '/' to login directly.
+6. The password to login is **Klampt**. Alternatively, you can add Klampt after the final '/' to login directly.
 7. If you want to change your password, change the text in docker-compose.yaml that comes after "NotebookApp.token="
 
 ## Windows:
