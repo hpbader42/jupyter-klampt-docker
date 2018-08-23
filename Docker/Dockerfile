@@ -63,6 +63,7 @@ USER klamptuser
 #Restart connection to jupyter from Klamptuser
 RUN cd /Klampt-jupyter-extension; \
     make jupyter
+RUN jupyter notebook --generate-config
 RUN cd ~; \
     cp -r /Klampt ./Klampt ;\
     cp -r /Klampt-jupyter-extension ./Klampt-jupyter-extension
