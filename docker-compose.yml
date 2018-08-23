@@ -1,10 +1,11 @@
 version: "2"
 services:
   docker-klampt:
+    container_name: "jupyter-klampt"
     build:
       dockerfile: Docker/Dockerfile
       context: .
-    command: jupyter notebook --ip=0.0.0.0 --notebook-dir=~ --no-browser 
+    command: jupyter notebook --ip=0.0.0.0 --notebook-dir=~ --no-browser --NotebookApp.token=Klampt
     user: klamptuser
     volumes:
       - './Work:/home/klamptuser/Work'

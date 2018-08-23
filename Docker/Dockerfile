@@ -56,9 +56,6 @@ RUN cd /Klampt-jupyter-extension; \
     make jupyter 
 
 EXPOSE 8888
-#Give klamptuser access to preexisting Klampt installs
-#RUN chown -R klamptuser /Klampt
-#RUN chown -R klamptuser /Klampt-jupyter-extension
 USER klamptuser
 #Restart connection to jupyter from Klamptuser
 RUN cd /Klampt-jupyter-extension; \
@@ -67,8 +64,6 @@ RUN jupyter notebook --generate-config
 RUN cd ~; \
     cp -r /Klampt ./Klampt ;\
     cp -r /Klampt-jupyter-extension ./Klampt-jupyter-extension
-    #git clone https://github.com/krishauser/Klampt; \
-    #git clone https://github.com/krishauser/Klampt-jupyter-extension.git
 RUN cd ~; \
     mkdir Work
 
