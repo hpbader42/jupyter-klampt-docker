@@ -44,6 +44,7 @@ RUN cd /Klampt; \
 
 RUN apt-get -y install ipython ipython-notebook
 RUN apt-get -y install python-pip
+RUN pip install numpy scipy matplotlib scikit-learn
 RUN pip install jupyter
 
 RUN git clone https://github.com/krishauser/Klampt-jupyter-extension.git
