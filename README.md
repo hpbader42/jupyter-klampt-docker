@@ -23,9 +23,13 @@ Instructions:
 3. Clone this repo
 4. Run "docker-compose up" from the downloaded repository
 5. Open a browser and navigate to where Jupyter is being hosted
+   
    a. On normal Linux, this should be 192.168.0.1:8888/'some_token'
+   
    b. On a Duke VM, this will be vcm-XXXX.vm.duke.edu:8888/'some_token' 
-      \nNote that the "X"s will be replaced by actual numbers
+   
+      Note that the "X"s will be replaced by actual numbers
+
 6. Copy and paste the token output to log in to Jupyter 
 
 ## Windows:
