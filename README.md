@@ -1,6 +1,8 @@
 # jupyter-klampt-docker
 
-# IMPORTANT NOTE:
+# About
+
+**Important Note**
 
 This repository contains everything that is needed to run Jupyter notebooks with Klampt integration.
 These run in containers which is essesntially a VM configured to have certain things set up. 
