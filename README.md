@@ -14,8 +14,8 @@ That folder is set up to make sure data persists. If your container crashes, dat
 Instructions:
 
 Unix:
-1) Download docker
-2) Download docker-compose
+1) Download docker ($sudo apt-get install docker)
+2) Download docker-compose ($sudo apt-get install docker-compose)
 3) Clone this repo
 4) Run "docker-compose up" from the downloaded repository
 5) Open a browser and navigate to where Jupyter is being hosted
@@ -25,18 +25,18 @@ Unix:
 6) Copy and paste the token output to log in to Jupyter 
 
 Windows:
+1) Follow the instructions to install docker on Windows
 1a) If you have Windows 10 Pro, Enterprise, or Education, lookup instructions for Downloading and Installing Docker
 1b) If you have Windows 10 Home or a different edition not mentioned above, download Docker Toolbox
-2) Follow the instructions to install Docker
-3) Clone this repo
-4) Open your Docker terminal that should have been installed as part of Step 2
-5) Navigate to the cloned repo and run "docker-compose up" 
-6) Open a browser and navigate to where Jupyter is being hosted
-6+) For me, this is 192.168.99.100:8888/'some_token'
-6+) This ip address is determined by Docker - it may be standard, but it should be stated when the Docker shell starts
-6+) You may want to restart the shell in order to see this number
-7) Copy and paste the token output to log in to Jupyter.
-7+) On Windows, for me, this involves highlighting the correct area and then right clicking. The text selected will be copied to the clipboard and can be pasted
+2) Clone this repo
+3) Open your Docker terminal that should have been installed as part of Step 2
+4) Navigate to the cloned repo and run "docker-compose up" 
+5) Open a browser and navigate to where Jupyter is being hosted
+5+) For me, this is 192.168.99.100:8888/'some_token'
+5+) This ip address is determined by Docker - it may be standard, but it should be stated when the Docker shell starts
+5+) You may want to restart the shell in order to see this number
+6) Copy and paste the token output to log in to Jupyter.
+6+) On Windows, for me, this involves highlighting the correct area and then right clicking. The text selected will be copied to the clipboard and can be pasted
 
 MAC:
 ?
