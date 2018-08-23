@@ -19,9 +19,11 @@ Instructions:
 
 ## Unix:
 1. Follow the instructions on the website to install Docker for Linux 
+
    https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository
 
 2. Follow the instructions on the website to install Docker-compose for Linux
+
    https://docs.docker.com/compose/install/#install-compose
 
 3. Clone this repo
