@@ -19,7 +19,11 @@ Instructions:
 
 ## Unix:
 1. Follow the instructions on the website to install Docker for Linux 
+   https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository
+
 2. Follow the instructions on the website to install Docker-compose for Linux
+   https://docs.docker.com/compose/install/#install-compose
+
 3. Clone this repo
 4. Run "docker-compose up" from the downloaded repository
 5. Open a browser and navigate to where Jupyter is being hosted
