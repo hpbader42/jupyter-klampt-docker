@@ -1,6 +1,6 @@
 # jupyter-klampt-docker
 
-**IMPORTANT NOTE:**
+# IMPORTANT NOTE:
 
 This repository contains everything that is needed to run Jupyter notebooks with Klampt integration.
 These run in containers which is essesntially a VM configured to have certain things set up. 
@@ -15,7 +15,7 @@ That folder is set up to make sure data persists. If your container crashes, dat
 
 Instructions:
 
-# Unix:
+## Unix:
 1. Follow the instructions on the website to install Docker for Linux 
 2. Follow the instructions on the website to install Docker-compose for Linux
 3. Clone this repo
@@ -26,7 +26,7 @@ Instructions:
       \nNote that the "X"s will be replaced by actual numbers
 6. Copy and paste the token output to log in to Jupyter 
 
-# Windows:
+## Windows:
 1. Follow the instructions to install docker on Windows
     a. If you have Windows 10 Pro, Enterprise, or Education, lookup instructions for Downloading and Installing Docker
     b. If you have Windows 10 Home or a different edition not mentioned above, download Docker Toolbox
@@ -44,5 +44,5 @@ Instructions:
 
     On Windows, for me, this involves highlighting the correct area and then right clicking. The text selected will be copied to the clipboard and can be pasted
 
-# MAC:
+## MAC:
 ?
