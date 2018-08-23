@@ -30,13 +30,14 @@ Instructions:
 4. Run "docker-compose up" from the cloned repository. This will take a long time the first time.
 5. Open a browser and navigate to where Jupyter is being hosted
    
-   a. On normal Linux, this should be 192.0.0.1:8888/'some_token'
+   a. On normal Linux, this should be 192.0.0.1:8888/
    
-   b. On a Duke VM, this will be vcm-XXXX.vm.duke.edu:8888/'some_token' 
+   b. On a Duke VM, this will be vcm-XXXX.vm.duke.edu:8888/ 
    
       Note that the "X"s will be replaced by actual numbers
 
-6. Copy and paste the token output to log in to Jupyter 
+6. The password to login is Klampt. Alternatively, you can add Klampt after the final '/' to login directly.
+7. If you want to change your password, change the text in docker-compose.yaml that comes after "NotebookApp.token="
 
 ## Windows:
 0. Register a Docker ID. You may need one to download Docker. 
@@ -50,14 +51,13 @@ Instructions:
 4. Navigate to the cloned repo and run "docker-compose up". This will take a while the first time. 
 5. Open a browser and navigate to where Jupyter is being hosted
 
-    For me, this is 192.168.99.100:8888/'some_token'
+    For me, this is 192.168.99.100:8888/
     
     This ip address is determined by Docker - it may be standard, but it should be stated when the Docker shell starts
     
     You may want to restart the shell in order to see this number
-6. Copy and paste the token output to log in to Jupyter.
-
-    On Windows, for me, this involves highlighting the correct area and then right clicking. The text selected will be copied to the clipboard and can be pasted
+6. The password to login is **Klampt**. Alternatively, you can log in directly by going to 192.168.99.100:8888/Klampt
+7. If you want to change your password, change the text in docker-compose.yaml that comes after "NotebookApp.token="
 
 ## MAC:
 0. Register a Docker id - you need one to download Docker from the Docker store for MAC
@@ -70,5 +70,6 @@ Instructions:
 3. Open your terminal and run "docker-compose up" from inside the cloned folder. This will take a while the first time.
 4. Open a browser and navigate to where Jupyter is being hosted
 
-   On normal MAC, this appears to be 192.0.0.1:8888/'some_token'
-5. Copy and paste the token output to log in to Jupyter
+   On MAC, you appear to be able to use localhost:8888/ or 192.0.0.1:8888/
+5. **Klampt** is the password to login. Alternatively, you can go to 192.0.0.1:8888/Klampt to login directly.
+6. If you want to change your password, change the text in docker-compose.yaml that comes after "NotebookApp.token="
