@@ -1,0 +1,12 @@
+version: "2"
+services:
+  docker-klampt:
+    build:
+      dockerfile: Docker/Dockerfile
+      context: .
+    command: jupyter notebook --ip=0.0.0.0 --notebook-dir=~ --no-browser 
+    user: klamptuser
+    volumes:
+      - './Work:/home/klamptuser/Work'
+    ports:
+      - "8888:8888"
