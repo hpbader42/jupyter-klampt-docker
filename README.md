@@ -11,7 +11,7 @@ It makes it easy to distribute common copies to all people.
 HOWEVER, data can be a little harder to extract from a VM. 
 As a result, this repository includes a Work folder which links up to a Work folder in the container.
 
-**DO ANY WORK YOU WANT TO SAVE IN THE WORK FOLDER.**
+**DO ANY WORK YOU WANT TO SAVE IN THE "WORK" FOLDER.**
 
 That folder is set up to make sure data persists. If your container crashes, data in other folders can be lost. Data in the Work folder will be backed up on your local machine. Also, if you want to add new assignments into your container, use your Work folder to transfer them. 
 
